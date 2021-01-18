@@ -127,7 +127,7 @@ jobs:
         cd openwrt/bin/targets/*/*
         rm -rf packages
         
-        echo "FIRMWARE="$(dirname "$(dirname "$(dirname "$(dirname $PWD)")")")"" >> $GITHUB_ENV
+        echo "FIRMWARE="$(dirname "$(dirname "$(dirname $PWD)")")"" >> $GITHUB_ENV
         echo "::set-output name=status::success"
 
     - name: Upload firmware directory
