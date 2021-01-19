@@ -1,3 +1,13 @@
+
+自动编译x86软路由/虚拟机专用Openwrt，fork自P3TERX/Actions-OpenWrt，添加了luci-app-passwall和Lean的luci-app-ssr-plus
+
+用法：
+  点击Actions-Build Openwrt-Run workflow开始编译，大约3小时后完成。
+  插件ipk文件位于 packages/x86_64/xiaoruoji和packages/x86_64/helloworld，依赖文件位于packages/x86_64/base
+
+
+
+
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
